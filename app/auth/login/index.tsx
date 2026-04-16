@@ -38,7 +38,7 @@ export default function LoginScreen() {
             <View className="bg-primary rounded-[32px] p-7">
               <Text className="text-[#E7EEF7] uppercase tracking-[3px] text-xs">BookVerse</Text>
               <Text className="text-white text-4xl font-bold mt-3">Tu biblioteca móvil</Text>
-              <Text className="text-[#D7E3F2] mt-3 leading-6">Administra usuarios y publica libros con un diseño diferente al proyecto original.</Text>
+              <Text className="text-[#D7E3F2] mt-3 leading-6">Administra usuarios y publica libros.</Text>
             </View>
 
             <View className="bg-paper rounded-[30px] p-6 mt-6 border border-[#E8DED1]">
