@@ -79,6 +79,10 @@ export default function ProfileScreen() {
           {loading ? <ActivityIndicator color="white" /> : <Text className="text-white font-bold">Guardar cambios</Text>}
         </Pressable>
 
+        <Pressable className="bg-white border border-[#E7DBCD] rounded-2xl py-4 mt-3 items-center" onPress={() => router.push('/profile/addresses')}>
+          <Text className="text-primary font-bold">Mis direcciones</Text>
+        </Pressable>
+
         <Pressable className="bg-white border border-[#E7DBCD] rounded-2xl py-4 mt-3 items-center" onPress={() => router.back()}>
           <Text className="text-primary font-bold">Volver</Text>
         </Pressable>

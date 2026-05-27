@@ -24,9 +24,14 @@ export default function RootLayout() {
           <Stack.Screen name="auth/login/index" />
           <Stack.Screen name="auth/register/index" />
           <Stack.Screen name="products/index" />
+          <Stack.Screen name="products/[id]" />
           <Stack.Screen name="products/create/index" />
           <Stack.Screen name="products/edit/[id]" />
           <Stack.Screen name="profile/index" />
+          <Stack.Screen name="profile/addresses/index" />
+          <Stack.Screen name="shopping/buyer/index" />
+          <Stack.Screen name="shopping/seller/index" />
+          <Stack.Screen name="shopping/categories/index" />
         </Stack>
       </AuthProvider>
     </QueryClientProvider>
